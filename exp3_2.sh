@@ -12,14 +12,14 @@ TIME_SEQ=$(seq 0 300)
 #echo always > /sys/kernel/mm/transparent_hugepage/defrag
 
 #execute bench
-echo `cd /home/stu1/filebench-1.5-alpha3/workloads ; filebench -f fileserver.f` &
+#echo `cd /home/stu1/filebench-1.5-alpha3/workloads ; sudo filebench -f fileserver.f` &
 #${XSB_PATH}/XSBench -t 4 -g 60000 -p 9000000 &
 
 #log
 for i in ${TIME_SEQ}
 do
-        echo "time: ${i}s" >> ${OUTPUT_EXP3_1}
-        cat /proc/meminfo | grep AnonHuge >> ${OUTPUT_EXP3_1}
+        echo "time: ${i}s" >> ${OUTPUT_EXP3_2}
+        cat /proc/meminfo | grep AnonHuge >> ${OUTPUT_EXP3_2}
 
         sleep 1
 done
