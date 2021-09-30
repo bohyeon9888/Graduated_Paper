@@ -3,16 +3,16 @@
 XSB_PATH=/home/stu1/XSBench/openmp-threading
 #FILEB_PATH=/home/stu1/filebench-1.5-alpha3/workloads
 
-OUTPUT_EXP3_1=FXAnon_hugepage.out
+OUTPUT_EXP3_1=FX_hugepage.out
 
 TIME_SEQ=$(seq 0 300)
 
 #THP enable
-echo always > /sys/kernel/mm/transparent_hugepage/enabled
-echo always > /sys/kernel/mm/transparent_hugepage/defrag
+#echo always > /sys/kernel/mm/transparent_hugepage/enabled
+#echo always > /sys/kernel/mm/transparent_hugepage/defrag
 
 #execute bench
-echo `cd /home/stu1/filebench-1.5-alpha3/workloads ; filebench -f fileserver.f` &
+#echo `cd /home/stu1/filebench-1.5-alpha3/workloads ; filebench -f fileserver.f` &
 ${XSB_PATH}/XSBench -t 4 -g 60000 -p 9000000 &
 
 #log
@@ -25,8 +25,8 @@ do
 done
 
 #THP disable
-echo never > /sys/kernel/mm/transparent_hugepage/enabled
-echo never > /sys/kernel/mm/transparent_hugepage/defrag
+#echo never > /sys/kernel/mm/transparent_hugepage/enabled
+#echo never > /sys/kernel/mm/transparent_hugepage/defrag
 
 #kill
 sudo killall -9 filebench
