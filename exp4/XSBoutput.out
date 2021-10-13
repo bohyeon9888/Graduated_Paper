@@ -1,5 +1,4 @@
 
-
 ---------------------------------THP [always]-----------------------------------
 
 
@@ -8,11 +7,16 @@ Simulation complete.
                                      RESULTS
 ================================================================================
 Threads:     4
-Runtime:     619.889 seconds
+Runtime:     620.751 seconds
 Lookups:     476,000,000
-Lookups/s:   767,879
+Lookups/s:   766,812
 Verification checksum: 791759 (WARNING - INAVALID CHECKSUM!)
 ================================================================================
+
+real	12m46.113s
+user	41m32.313s
+sys	0m16.197s
+
 
 
 ---------------------------------THP [defer]-----------------------------------
@@ -23,9 +27,13 @@ Simulation complete.
                                      RESULTS
 ================================================================================
 Threads:     4
-Runtime:     1295.477 seconds
-Lookups:     408,000,000
-Lookups/s:   314,941
-Verification checksum: 964332 (WARNING - INAVALID CHECKSUM!)
+Runtime:     1393.124 seconds
+Lookups:     476,000,000
+Lookups/s:   341,678
+Verification checksum: 791759 (WARNING - INAVALID CHECKSUM!)
 ================================================================================
+
+real	24m7.250s
+user	43m50.894s
+sys	5m35.054s
 
