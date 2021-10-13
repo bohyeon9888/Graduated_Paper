@@ -1,7 +1,4 @@
 # Graduation Thesis
-## Linux THP의 defrag option
- direct compactiond을 조절하는 옵션으로 huge page 할당동안 synchronous memory compaction을 수행한다. 
- ation Thesis
 ## 실험방법
 ### 실험 1)
 Workload 실행 후 grep ANON 등으로 page 할당 상태 관찰<br/>
