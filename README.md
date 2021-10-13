@@ -23,3 +23,7 @@ Linux THP의 defrag 옵션 always/defer 두 가지로 실험<br/>
 #### Linux THP의 defrag option
  direct compactiond을 조절하는 옵션으로 huge page 할당동안 synchronous memory compaction을 수행한다. <br/>
  이를 비활성화하면 메모리 절약에는 비효율적일 수 있으나 page fault 시 발생하는latency를 줄일 수 있다. <br/>
+
+### 실험 5)
+실험 5-1) btree, XSBench 각각 defrag [defer/always]로 설정해 runtime과 basic page 및 hugepage 할당 상태 확인 <br/>
+실험 5-2) filebench의 fileserver 실행 후 실험 5-1 수행<br/>
