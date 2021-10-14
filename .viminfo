@@ -7,12 +7,27 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<BTR_PATH\>
+
 # Command Line History (newest to oldest):
 :wq
 :q
+:Q
+:WQ
+:.,.+476 Per-Operation Breakdown
+:set nu
+::
+:!
+:wq!
 :q::
 
 # Search String History (newest to oldest):
+? \<BTR_PATH\>
+?/bin/bash
+? \<Graduation\>
+? \<for\>
+? \<FILEB_PATH\>
 
 # Expression History (newest to oldest):
 
@@ -21,125 +36,694 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	e
+""1	BLOCK	26
+	time: 611s
+	AnonPages:          9288 kB
+	AnonHugePages:         0 kB
+	time: 612s
+	AnonPages:          9356 kB
+	AnonHugePages:         0 kB
+	time: 613s
+	AnonPages:          9256 kB
+	AnonHugePages:         0 kB
+	time: 614s
+	AnonPages:          9252 kB
+	AnonHugePages:         0 kB
+	time: 615s
+	AnonPages:          9320 kB
+	AnonHugePages:         0 kB
+	time: 616s
+	AnonPages:          9200 kB
+	AnonHugePages:         0 kB
+	time: 617s
+	AnonPages:          9200 kB
+	AnonHugePages:         0 kB
+	time: 618s
+	AnonPages:          9320 kB
+	AnonHugePages:         0 kB
+	time: 619s
+	AnonPages:          9204 kB
+	AnonHugePages:         0 kB
+	time: 620s
+	AnonPages:          9336 kB
+	AnonHugePages:         0 kB
+	time: 621s
+	AnonPages:          9376 kB
+	AnonHugePages:         0 kB
+	time: 622s
+	AnonPages:          9196 kB
+	AnonHugePages:         0 kB
+	time: 623s
+	AnonPages:          9176 kB
+	AnonHugePages:         0 kB
+	time: 624s
+	AnonPages:          9240 kB
+	AnonHugePages:         0 kB
+	time: 625s
+	AnonPages:          9412 kB
+	AnonHugePages:         0 kB
+	time: 626s
+	AnonPages:          9228 kB
+	AnonHugePages:         0 kB
+	time: 627s
+	AnonPages:          9156 kB
+"2	LINE	0
+	(wd now: ~/exp5)
+"3	LINE	0
+	[1]+  Done                    filebench -f fileserver.f  (wd: ~/filebench-1.5-alpha3/workloads)
+"4	LINE	0
+	[1]+  Done                    filebench -f fileserver.f  (wd: ~/filebench-1.5-alpha3/workloads)
+"5	LINE	0
+	(wd now: ~/exp5)
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	LINE	0
+	
+"-	CHAR	0
+	
 
 # File marks:
-'0  608  0  ~/Anonhuge_usage.out
-'1  606  16  ~/Anon_usage.out
-'2  609  16  ~/Anonhuge_usage.out
-'3  30  9  ~/sample.sh
-'4  16  15  ~/sample.sh
-'5  14  12  ~/sample.sh
-'6  34  0  ~/sample.sh
-'7  18  3  ~/sample.sh
-'8  14  11  ~/sample.sh
-'9  17  25  ~/sample.sh
+'0  2971  0  ~/exp5/BTR_usage_always.out
+'1  13  0  ~/exp5/BTRruntime.out
+'2  2955  0  ~/exp5/BTR_usage_defer.out
+'3  1  0  ~/exp5/exp5.sh
+'4  12  0  ~/exp5/exp5.sh
+'5  1827  0  ~/exp5/XSB_usage_always.out
+'6  1  0  ~/exp5/XSB_usasge_always.out
+'7  39  0  ~/exp5/XSBruntime.out
+'8  1833  26  ~/exp5/XSB_usage_defer.out
+'9  11  33  ~/exp5/exp5.sh
 
 # Jumplist (newest first):
--'  608  0  ~/Anonhuge_usage.out
--'  1  0  ~/Anonhuge_usage.out
--'  606  16  ~/Anon_usage.out
--'  1  0  ~/Anon_usage.out
--'  609  16  ~/Anonhuge_usage.out
--'  30  9  ~/sample.sh
+-'  2971  0  ~/exp5/BTR_usage_always.out
+-'  1  0  ~/exp5/BTR_usage_always.out
+-'  13  0  ~/exp5/BTRruntime.out
+-'  1  0  ~/exp5/BTRruntime.out
+-'  2955  0  ~/exp5/BTR_usage_defer.out
+-'  1  0  ~/exp5/BTR_usage_defer.out
+-'  1  0  ~/exp5/exp5.sh
+-'  12  0  ~/exp5/exp5.sh
+-'  1827  0  ~/exp5/XSB_usage_always.out
+-'  1  0  ~/exp5/XSB_usage_always.out
+-'  1  0  ~/exp5/XSB_usasge_always.out
+-'  39  0  ~/exp5/XSBruntime.out
+-'  1  0  ~/exp5/XSBruntime.out
+-'  1833  26  ~/exp5/XSB_usage_defer.out
+-'  1  0  ~/exp5/XSB_usage_defer.out
+-'  11  33  ~/exp5/exp5.sh
+-'  25  0  ~/exp5/BTRruntime.out
+-'  8  18  ~/exp5/exp5.sh
+-'  71  16  ~/vmitosis-workloads/btree/btree.c
+-'  1  0  ~/vmitosis-workloads/btree/btree.c
+-'  46  0  ~/vmitosis-workloads/btree/btree.c
+-'  66  24  ~/vmitosis-workloads/btree/btree.c
+-'  179  0  ~/exp5/BTR_usage_defer.out
+-'  19  0  ~/exp5/exp5.sh
+-'  2  0  ~/exp5/exp5.sh
+-'  14  1  ~/exp5/BTR_usage_always.out
+-'  1204  0  ~/exp5/FX_usage_always.out
+-'  1  0  ~/exp5/FX_usage_always.out
+-'  1204  0  ~/exp5/FXhuge_usage_always.out
+-'  1  0  ~/exp5/FXhuge_usage_always.out
+-'  1204  0  ~/exp5/FB_usage_always.out
+-'  1  0  ~/exp5/FB_usage_always.out
+-'  1204  0  ~/exp5/FBhuge_usage_always.out
+-'  1  0  ~/exp5/FBhuge_usage_always.out
+-'  40  0  ~/exp5/FB_usage_always.out
+-'  65  0  ~/exp5/FXruntime.out
+-'  1  0  ~/exp5/FXruntime.out
+-'  35  0  ~/exp5/FXruntime.out
+-'  531  0  ~/exp5/FBhuge_usage_defer.out
+-'  1  0  ~/exp5/FBhuge_usage_defer.out
+-'  601  0  ~/exp5/FB_usage_defer.out
+-'  1  0  ~/exp5/FB_usage_defer.out
+-'  1202  0  ~/exp5/FXhuge_usage_defer.out
+-'  1  0  ~/exp5/FXhuge_usage_defer.out
+-'  1202  0  ~/exp5/FX_usage_defer.out
+-'  1  0  ~/exp5/FX_usage_defer.out
+-'  34  91  ~/exp5/FXruntime.out
+-'  14  0  ~/exp5/exp5.sh
+-'  23  50  ~/exp5/FBruntime.out
+-'  1  0  ~/exp5/FBruntime.out
+-'  1  0  ~/exp5/ex5.sh
+-'  2  38  ~/exp5/FXruntime.out
+-'  2  55  ~/exp5/FBruntime.out
+-'  1  0  ~/exp5/exp5
+-'  28  79  ~/exp5/FXruntime.out
+-'  1202  26  ~/exp5/FXhuge_usage_always.out
+-'  281  0  ~/exp5/FX_usage_always.out
+-'  17  17  ~/exp5/exp5.sh
+-'  70  0  ~/exp5/BTRhuge_usage_always.out
+-'  1  0  ~/exp5/BTRhuge_usage_always.out
+-'  60  0  ~/exp5/BTR_usage_always.out
+-'  3  18  ~/exp5/BTRruntime.out
+-'  13  0  ~/exp5/exp5.sh
+-'  15  0  ~/exp5/XSBhuge_usage_defer.out
+-'  1  0  ~/exp5/XSBhuge_usage_defer.out
+-'  25  19  ~/exp5/XSBruntime.out
+-'  7  18  ~/exp5/exp5.sh
+-'  216  0  ~/exp5/BTR_usage_defer.out
+-'  171  0  ~/exp5/BTRhuge_usage_defer.out
+-'  1  0  ~/exp5/BTRhuge_usage_defer.out
+-'  91  30  ~/XSBench/openmp-threading/GridInit.c
+-'  1  0  ~/XSBench/openmp-threading/GridInit.c
+-'  110  0  ~/XSBench/openmp-threading/GridInit.c
+-'  227  0  ~/XSBench/openmp-threading/GridInit.c
+-'  1202  0  ~/exp5/XSB_usage_defer.out
+-'  23  0  ~/exp5/XSBruntime.out
+-'  1202  26  ~/exp5/XSB_usage_always.out
+-'  1202  26  ~/exp5/XSBhuge_usage_always.out
+-'  1  0  ~/exp5/XSBhuge_usage_always.out
+-'  900  1  ~/vmitosis-workloads/btree/btree.c
+-'  20  16  ~/vmitosis-workloads/Makefile
+-'  1  0  ~/vmitosis-workloads/Makefile
+-'  25  0  ~/exp5.sh
+-'  1  0  ~/exp5.sh
 -'  1  0  ~/sample.sh
--'  16  15  ~/sample.sh
--'  14  12  ~/sample.sh
--'  34  0  ~/sample.sh
--'  18  3  ~/sample.sh
--'  17  25  ~/sample.sh
--'  26  0  ~/sample.sh
--'  1  1  /sys/kernel/mm/transparent_hugepage/defrag
--'  1  0  /sys/kernel/mm/transparent_hugepage/enabled
--'  5  0  ~/sample.sh
--'  602  0  ~/Anon_usage.out
--'  9  19  ~/sample.sh
--'  789  0  ~/Anon_usage.out
--'  16  4  ~/filebench-1.5-alpha3/workloads/fileserver.f
--'  1  0  ~/filebench-1.5-alpha3/workloads/fileserver.f
--'  6  0  ~/sample.sh
--'  4  10  ~/sample.sh
--'  566  0  ~/Anonhuge_usage.out
--'  416  0  ~/Anon_usage.out
--'  24  34  ~/sample.sh
--'  866  0  ~/XSBench/openmp-threading/Simulation.c
--'  1  0  ~/XSBench/openmp-threading/Simulation.c
--'  146  0  ~/XSBench/openmp-threading/XSbench_header.h
--'  1  0  ~/XSBench/openmp-threading/XSbench_header.h
--'  1  0  ~/XSBench/openmp-threading/Main.c
--'  41  0  ~/XSBench/openmp-threading/Makefile
--'  26  0  ~/XSBench/openmp-threading/Makefile
--'  1  0  ~/XSBench/openmp-threading/Makefile
--'  30  0  ~/filebench-1.5-alpha3/workloads/fileserver.f
--'  101  0  ~/filebench-1.5-alpha3/config.log
--'  1  0  ~/filebench-1.5-alpha3/config.log
--'  56  0  ~/filebench-1.5-alpha3/config.log
--'  284  0  ~/filebench/config.log
--'  1  0  ~/filebench/config.log
--'  40  0  ~/filebench-1.5-alpha3/Makefile.in
--'  1  0  ~/filebench-1.5-alpha3/Makefile.in
--'  1  0  ~/filebench-1.5-alpha3/Makefile.am
--'  5  0  ~/XSBench/openmp-threading/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/filebench-1.5-alpha3/Makefile.am
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  40  0  ~/filebench-1.5-alpha3/Makefile.in
--'  1  0  ~/filebench-1.5-alpha3/Makefile.in
--'  1  0  ~/filebench-1.5-alpha3/Makefile.am
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/filebench-1.5-alpha3/Makefile.am
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  284  0  ~/filebench/config.log
--'  1  0  ~/filebench/config.log
--'  40  0  ~/filebench-1.5-alpha3/Makefile.in
--'  1  0  ~/filebench-1.5-alpha3/Makefile.in
--'  1  0  ~/filebench-1.5-alpha3/Makefile.am
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/filebench-1.5-alpha3/Makefile.am
--'  113  0  ~/XSBench/openmp-offload/Makefile
--'  1  0  ~/XSBench/openmp-offload/Makefile
--'  113  0  ~/XSBench/openmp-offload/Makefile
+-'  35  0  ~/exp4/XSBoutput.out
+-'  1  0  ~/exp4/XSBoutput.out
+-'  20  0  ~/exp4/XSBoutput.out
+-'  86  0  ~/vmitosis-workloads/Makefile
+-'  1  0  ~/vmitosis-workloads/README.md
+-'  64  22  ~/vmitosis-workloads/btree/btree.c
+-'  31  0  ~/vmitosis-workloads/btree/Makefile
+-'  1  0  ~/vmitosis-workloads/btree/Makefile
+-'  2  0  ~/README.md
+-'  1  0  ~/README.md
+-'  25  141  ~/README.md
+-'  1202  0  ~/FX_hugepage2_defer.out
+-'  1  0  ~/FX_hugepage2_defer.out
 
 # History of marks within files (newest to oldest):
 
+> ~/exp5/BTR_usage_always.out
+	"	2971	0
+
+> ~/exp5/BTRruntime.out
+	"	13	0
+	^	13	0
+	.	14	0
+	+	16	12
+	+	14	0
+	+	14	0
+	+	3	19
+	+	24	12
+	+	14	0
+
+> ~/exp5/BTR_usage_defer.out
+	"	2955	0
+
+> ~/exp5/exp5.sh
+	"	1	0
+	^	12	0
+	.	12	0
+	+	11	4
+	+	6	26
+	+	7	34
+	+	11	4
+	+	4	43
+	+	12	28
+	+	11	0
+	+	6	14
+	+	7	18
+	+	12	0
+	+	11	0
+	+	6	14
+	+	7	19
+	+	6	14
+	+	7	18
+	+	6	27
+	+	7	35
+	+	11	0
+	+	12	0
+	+	11	0
+	+	12	0
+	+	6	13
+	+	7	17
+	+	6	13
+	+	7	17
+	+	11	0
+	+	12	0
+	+	6	25
+	+	7	33
+	+	6	13
+	+	7	17
+	+	11	0
+	+	12	0
+	+	11	4
+	+	12	0
+	+	11	0
+	+	6	14
+	+	8	0
+	+	18	8
+	+	19	58
+	+	8	18
+	+	6	13
+	+	11	0
+	+	12	0
+	+	8	20
+	+	11	33
+	+	6	27
+	+	8	19
+	+	6	14
+	+	8	19
+	+	11	0
+	+	12	0
+
+> ~/exp5/XSB_usage_always.out
+	"	1827	0
+	^	1202	27
+	.	1203	0
+	+	1202	27
+	+	1203	0
+
+> ~/exp5/XSB_usasge_always.out
+	"	1	0
+
+> ~/exp5/XSBruntime.out
+	"	39	0
+	^	39	0
+	.	38	12
+	+	19	0
+	+	1	0
+	+	4	0
+	+	2	30
+	+	22	80
+	+	25	12
+	+	25	80
+	+	25	0
+	+	38	12
+
+> ~/exp5/XSB_usage_defer.out
+	"	1833	26
+	^	1833	27
+	.	1834	0
+	+	1833	27
+	+	1834	0
+
+> ~/vmitosis-workloads/btree/btree.c
+	"	71	16
+	^	71	17
+	.	71	16
+	+	71	23
+	+	64	22
+	+	69	21
+	+	66	25
+	+	71	16
+
+> ~/exp5/FX_usage_always.out
+	"	1204	0
+	^	1204	0
+	.	1203	0
+	+	1203	0
+
+> ~/exp5/FXhuge_usage_always.out
+	"	1204	0
+	^	1204	0
+	.	1203	0
+	+	1203	0
+
+> ~/exp5/FB_usage_always.out
+	"	1204	0
+	^	1204	0
+	.	1203	0
+	+	2	0
+	+	1203	0
+
+> ~/exp5/FBhuge_usage_always.out
+	"	1204	0
+	^	1204	0
+	.	1203	0
+	+	2	0
+	+	1203	0
+
+> ~/exp5/FXruntime.out
+	"	65	0
+	^	65	0
+	.	49	33
+	+	33	12
+	+	33	0
+	+	1	15
+	+	66	0
+	+	31	0
+	+	2	66
+	+	29	0
+	+	2	0
+	+	64	13
+	+	34	0
+	+	60	80
+	+	49	33
+
+> ~/exp5/FBhuge_usage_defer.out
+	"	531	0
+
+> ~/exp5/FB_usage_defer.out
+	"	601	0
+
+> ~/exp5/FXhuge_usage_defer.out
+	"	1202	0
+
+> ~/exp5/FX_usage_defer.out
+	"	1202	0
+
+> ~/exp5/FBruntime.out
+	"	23	50
+	^	23	51
+	.	23	50
+	+	20	13
+	+	17	0
+	+	2	91
+	+	2	91
+	+	2	1
+	+	42	9
+	+	39	0
+	+	23	50
+
+> ~/exp5/ex5.sh
+	"	1	0
+
+> ~/exp5/exp5
+	"	1	0
+
+> ~/exp5/BTRhuge_usage_always.out
+	"	70	0
+
+> ~/exp5/XSBhuge_usage_defer.out
+	"	15	0
+
+> ~/exp5/BTRhuge_usage_defer.out
+	"	171	0
+
+> ~/XSBench/openmp-threading/GridInit.c
+	"	91	30
+	^	91	31
+	.	91	30
+	+	91	30
+
+> ~/exp5/XSBhuge_usage_always.out
+	"	1202	26
+	^	1202	27
+	.	1203	0
+	+	1202	27
+	+	1202	27
+	+	1202	27
+	+	1202	27
+	+	1203	0
+	+	1203	0
+
+> ~/vmitosis-workloads/Makefile
+	"	20	16
+	^	20	17
+	.	20	16
+	+	20	16
+
+> ~/exp5.sh
+	"	25	0
+	^	20	39
+	.	25	0
+	+	25	23
+	+	1	0
+	+	2	0
+	+	1	10
+	+	4	9
+	+	6	20
+	+	7	18
+	+	9	17
+	+	6	27
+	+	7	35
+	+	10	0
+	+	12	38
+	+	24	0
+	+	25	0
+
+> ~/sample.sh
+	"	1	0
+	^	13	0
+	.	2	0
+	+	28	0
+	+	18	3
+	+	34	22
+	+	4	11
+	+	9	20
+	+	10	0
+	+	18	124
+	+	32	0
+	+	18	71
+	+	6	0
+	+	7	0
+	+	9	0
+	+	16	0
+	+	19	0
+	+	20	0
+	+	27	0
+	+	34	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	26	0
+	+	18	32
+	+	18	16
+	+	18	25
+	+	18	11
+	+	18	0
+	+	18	29
+	+	18	150
+	+	18	11
+	+	18	74
+	+	18	74
+	+	18	11
+	+	18	0
+	+	18	20
+	+	18	9
+	+	18	11
+	+	18	15
+	+	18	4
+	+	18	26
+	+	18	15
+	+	18	11
+	+	18	0
+	+	27	0
+	+	26	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	16	0
+	+	9	0
+	+	7	0
+	+	6	0
+	+	34	0
+	+	32	0
+	+	31	9
+	+	30	9
+	+	4	51
+	+	6	0
+	+	15	52
+	+	13	56
+	+	19	0
+	+	16	0
+	+	15	14
+	+	16	0
+	+	17	0
+	+	2	0
+
+> ~/exp4/XSBoutput.out
+	"	35	0
+	.	35	0
+	+	1	0
+	+	1	0
+	+	18	13
+	+	5	0
+	+	20	0
+	+	25	19
+	+	38	13
+	+	25	0
+	+	35	0
+
+> ~/vmitosis-workloads/README.md
+	"	1	0
+
+> ~/vmitosis-workloads/btree/Makefile
+	"	31	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	1	0
+
+> ~/README.md
+	"	2	0
+	^	2	0
+	.	3	0
+	+	2	13
+	+	25	142
+	+	3	0
+
+> ~/FX_hugepage2_defer.out
+	"	1202	0
+	^	329	0
+	.	2	0
+	+	2	0
+
+> ~/exp3_1.sh
+	"	1	0
+	^	6	36
+	.	7	0
+	+	33	0
+	+	3	1
+	+	1	10
+	+	15	40
+	+	6	20
+	+	21	44
+	+	22	0
+	+	21	44
+	+	22	57
+	+	6	19
+	+	33	23
+	+	34	0
+	+	32	24
+	+	12	0
+	+	11	0
+	+	16	0
+	+	18	0
+	+	16	0
+	+	15	80
+	+	11	0
+	+	12	0
+	+	11	0
+	+	12	0
+	+	6	16
+	+	15	0
+	+	29	0
+	+	30	0
+	+	6	25
+	+	8	19
+	+	6	63
+	+	16	47
+	+	17	0
+	+	16	71
+	+	6	54
+	+	6	33
+	+	6	54
+	+	6	31
+	+	6	63
+	+	16	39
+	+	7	0
+
+> ~/XSBoutput.out
+	"	18	42
+	^	18	43
+	.	18	42
+	+	15	0
+	+	17	0
+	+	4	0
+	+	30	80
+	+	1	62
+	+	5	0
+	+	2	0
+	+	18	80
+	+	19	0
+	+	5	0
+	+	18	42
+
+> ~/XSBench/openmp-threading/XSBoutput.out
+	"	2	0
+	^	2	0
+	.	1	0
+	+	1	0
+
+> ~/filebench-1.5-alpha3/workloads/fileserver.f
+	"	56	5
+	^	56	6
+	.	56	5
+	+	56	6
+	+	38	41
+	+	27	13
+	+	56	6
+	+	27	13
+	+	56	5
+
+> ~/XSB_output4_1.out
+	"	1	0
+
+> ~/XSB_output.out
+	"	1	0
+
+> ~/XSB_output4_2.out
+	"	1	0
+
+> ~/FX_hugepage2_always.out
+	"	306	0
+
+> ~/XSBoutput4_1.out
+	"	1	0
+
+> ~/XF_hugepage2_always.out
+	"	1	0
+
+> ~/XF_hugepage2_always
+	"	1	0
+
+> ~/FX_hugepage2.out
+	"	1202	0
+
+> ~/XSBench/openmp-threading/io.c
+	"	81	0
+
+> ~/XSBench/openmp-threading/io,c
+	"	1	0
+
+> ~/XF_hugepage2.out
+	"	907	0
+
+> ~/exp3_2.sh
+	"	6	25
+	^	6	26
+	.	6	25
+	+	33	23
+	+	3	0
+	+	6	12
+	+	16	0
+	+	15	0
+	+	22	59
+	+	15	57
+	+	21	44
+	+	15	0
+	+	8	17
+	+	6	25
+
+> ~/XF_hugepage_1.out
+	"	1	0
+
+> ~/XF_hugepage.out
+	"	1	0
+	^	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/FXAnon_hugepage.out
+	"	26	0
+	^	2781	0
+	.	2767	2
+	+	2767	2
+
+> ~/XF_hugeapage_1.out
+	"	1	0
+
+> ~/exp_2.sh
+	"	1	0
+
+> ~/FX_hugepage.out
+	"	346	0
+
 > ~/Anonhuge_usage.out
-	"	608	0
+	"	1206	0
 	^	608	0
 	.	608	0
 	+	607	0
@@ -148,6 +732,33 @@
 	+	604	19
 	+	606	16
 	+	608	0
+
+> ~/filebench-1.5-alpha3/workloads/fileserver-new.f
+	"	1	0
+
+> ~/exp3-1.sh
+	"	1	0
+
+> ~/exp1.sh
+	"	1	8
+	^	1	9
+	.	1	8
+	+	34	0
+	+	1	0
+	+	2	0
+	+	1	8
+
+> ~/filebench-1.5-alpha3/workloads/fileserve.f
+	"	1	0
+
+> ~/filebench-1.5-alpha3/workloads/oltp.f
+	"	85	0
+
+> ~/filebench-1.5-alpha3/workloads/Makefile
+	"	189	0
+
+> ~/server.sh
+	"	1	0
 
 > ~/Anon_usage.out
 	"	606	16
@@ -158,78 +769,11 @@
 	+	604	17
 	+	606	16
 
-> ~/sample.sh
-	"	30	9
-	^	30	10
-	.	30	9
-	+	28	0
-	+	18	3
-	+	34	22
-	+	4	11
-	+	9	20
-	+	10	0
-	+	14	124
-	+	32	0
-	+	14	71
-	+	6	0
-	+	7	0
-	+	9	0
-	+	12	0
-	+	19	0
-	+	20	0
-	+	27	0
-	+	34	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	26	0
-	+	14	32
-	+	14	16
-	+	17	25
-	+	14	11
-	+	17	0
-	+	14	29
-	+	14	150
-	+	14	11
-	+	14	74
-	+	14	74
-	+	14	11
-	+	16	0
-	+	14	20
-	+	16	9
-	+	14	11
-	+	14	15
-	+	16	4
-	+	14	26
-	+	16	15
-	+	14	11
-	+	16	0
-	+	27	0
-	+	26	0
-	+	24	0
-	+	23	0
-	+	22	0
-	+	21	0
-	+	20	0
-	+	19	0
-	+	12	0
-	+	9	0
-	+	7	0
-	+	6	0
-	+	34	0
-	+	32	0
-	+	31	9
-	+	30	9
-
 > /sys/kernel/mm/transparent_hugepage/defrag
 	"	1	1
 
 > /sys/kernel/mm/transparent_hugepage/enabled
 	"	1	0
-
-> ~/filebench-1.5-alpha3/workloads/fileserver.f
-	"	16	4
 
 > ~/XSBench/openmp-threading/Simulation.c
 	"	866	0

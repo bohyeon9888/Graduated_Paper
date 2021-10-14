@@ -17,7 +17,7 @@ clean-all: clean-btree clean-canneal clean-graph500 clean-gups clean-xsbench \
 # Workloads
 ###############################################################################
 
-CC = gcc
+CC = gcc -std=c99
 CXX = g++
 
 INCLUDES=-Icommon

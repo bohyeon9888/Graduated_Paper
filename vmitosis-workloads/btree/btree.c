@@ -61,14 +61,14 @@
 #ifdef _OPENMP
 ///< the number of elements in the tree
 //#define NELEMENTS (8UL << 30)
-#define NELEMENTS   (3400UL << 20)
+#define NELEMENTS   (150UL << 20)
 ///< the number of lookups
-#define NLOOKUP 2000000000UL
+#define NLOOKUP 200000000UL
 #else
 ///< the number of elements in the tree
-#define NELEMENTS (3400UL << 20)
+#define NELEMENTS (150UL << 20)
 ///< the number of lookups
-#define NLOOKUP 50000000
+#define NLOOKUP 300000000
 #endif
 
 
