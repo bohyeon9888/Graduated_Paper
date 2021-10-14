@@ -1,5 +1,5 @@
 
-------------------------THP defrag [always]------------------------
+-----------------------------------THP defrag [always]--------------------------------------
 
 920.156: Per-Operation Breakdown
 statfile1            632662ops      780ops/s   0.0mb/s      3.5ms/op [0.00ms - 382.93ms]
@@ -30,4 +30,10 @@ Verification checksum: 791759 (WARNING - INAVALID CHECKSUM!)
 real	10m15.177s
 user	0m3.220s
 sys	0m1.572s
+
+-----------------------------------THP defrag [always]--------------------------------------
+
+real	10m42.120s
+user	0m3.776s
+sys	0m16.185s
 
