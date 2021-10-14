@@ -3,9 +3,9 @@
 XSB_PATH=/home/stu1/XSBench/openmp-threading
 #FILEB_PATH=/home/stu1/filebench-1.5-alpha3/workloads
 
-OUTPUT_EXP3_1=FX_hugepage.out
+OUTPUT_EXP3_1=FX_hugepage2_defer.out
 
-TIME_SEQ=$(seq 0 300)
+TIME_SEQ=$(seq 0 600)
 
 #THP enable
 #echo always > /sys/kernel/mm/transparent_hugepage/enabled
@@ -13,7 +13,8 @@ TIME_SEQ=$(seq 0 300)
 
 #execute bench
 #echo `cd /home/stu1/filebench-1.5-alpha3/workloads ; filebench -f fileserver.f` &
-${XSB_PATH}/XSBench -t 4 -g 60000 -p 9000000 &
+${XSB_PATH}/XSBench -t 4 -g 60000 -p 14000000 &
+
 
 #log
 for i in ${TIME_SEQ}
