@@ -33,6 +33,32 @@ sys	0m1.572s
 
 -----------------------------------THP defrag [always]--------------------------------------
 
+1032.287: Per-Operation Breakdown
+statfile1            471869ops      572ops/s   0.0mb/s      0.6ms/op [0.00ms - 893.57ms]
+deletefile1          471867ops      572ops/s   0.0mb/s      2.0ms/op [0.01ms - 22151.34ms]
+closefile3           471870ops      572ops/s   0.0mb/s      0.0ms/op [0.00ms - 1636.53ms]
+readfile1            471880ops      572ops/s  74.1mb/s     15.6ms/op [0.00ms - 1446.78ms]
+openfile2            471881ops      572ops/s   0.0mb/s      1.3ms/op [0.00ms - 3862.37ms]
+closefile2           471881ops      572ops/s   0.0mb/s      0.0ms/op [0.00ms - 1631.97ms]
+appendfilerand1      471899ops      572ops/s   4.5mb/s     19.1ms/op [0.00ms - 21121.23ms]
+openfile1            471899ops      572ops/s   0.0mb/s      1.3ms/op [0.00ms - 4026.30ms]
+closefile1           471899ops      572ops/s   0.0mb/s      0.0ms/op [0.00ms - 785.76ms]
+wrtfile1             471902ops      572ops/s  71.7mb/s     31.1ms/op [0.00ms - 25110.02ms]
+createfile1          471919ops      572ops/s   0.0mb/s     10.9ms/op [0.01ms - 3516.61ms]
+1032.287: IO Summary: 5190766 ops 6289.902 ops/s 572/1144 rd/wr 150.2mb/s  27.3ms/op
+1032.287: Shutting down processes
+
+Simulation complete.
+================================================================================
+                                     RESULTS
+================================================================================
+Threads:     4
+Runtime:     1389.704 seconds
+Lookups:     476,000,000
+Lookups/s:   342,519
+Verification checksum: 791759 (WARNING - INAVALID CHECKSUM!)
+================================================================================
+
 real	10m42.120s
 user	0m3.776s
 sys	0m16.185s
