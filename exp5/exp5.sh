@@ -3,9 +3,9 @@
 XSB_PATH=/home/stu1/XSBench/openmp-threading
 BTR_PATH=/home/stu1//vmitosis-workloads/bin
 
-OUTPUT_ANON=FB_usage_always.out
+OUTPUT_ANON=FB_usage_defer.out
 
-TIME_SEQ=$(seq 0 1000)
+TIME_SEQ=$(seq 0 1800)
 
 #execute bench
 #time ${XSB_PATH}/XSBench -t 4 -g 50000 -p 14000000 &
