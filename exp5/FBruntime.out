@@ -1,42 +1,24 @@
 
 ----------------------------------ThP defrag [always]----------------------------------------
 
-tatfile1            561139ops      663ops/s   0.0mb/s      1.3ms/op [0.00ms - 3010.48ms]
-deletefile1          561137ops      663ops/s   0.0mb/s      2.9ms/op [0.01ms - 13073.59ms]
-closefile3           561144ops      663ops/s   0.0mb/s      0.0ms/op [0.00ms - 1378.77ms]
-readfile1            561145ops      663ops/s  86.2mb/s      5.4ms/op [0.00ms - 12791.83ms]
-openfile2            561145ops      663ops/s   0.0mb/s      3.0ms/op [0.00ms - 10894.41ms]
-closefile2           561145ops      663ops/s   0.0mb/s      0.0ms/op [0.00ms - 955.54ms]
-appendfilerand1      561147ops      663ops/s   5.2mb/s      7.5ms/op [0.00ms - 12817.77ms]
-openfile1            561147ops      663ops/s   0.0mb/s      3.0ms/op [0.00ms - 10895.01ms]
-closefile1           561148ops      663ops/s   0.0mb/s      0.0ms/op [0.00ms - 955.87ms]
-wrtfile1             561168ops      663ops/s  83.1mb/s     35.8ms/op [0.00ms - 12838.28ms]
-createfile1          561187ops      663ops/s   0.0mb/s      4.1ms/op [0.01ms - 12797.55ms]
-1045.477: IO Summary: 6172652 ops 7297.381 ops/s 663/1327 rd/wr 174.5mb/s  21.0ms/op
-1045.477: Shutting down processes
+</run>
+Took: 1075.706
+Took: 1075.706
+</benchmark>
 
-real	15m54.663s
-user	1m9.859s
-sys	6m55.118s
+real	17m56.262s
+user	16m13.067s
+sys	0m13.636s
 
 
 ----------------------------------ThP defrag [defer]----------------------------------------
 
-1128.611: Per-Operation Breakdown
-statfile1            544195ops      589ops/s   0.0mb/s      0.4ms/op [0.00ms - 2202.98ms]
-deletefile1          544193ops      589ops/s   0.0mb/s      1.7ms/op [0.01ms - 61718.51ms]
-closefile3           544195ops      589ops/s   0.0mb/s      0.0ms/op [0.00ms - 885.03ms]
-readfile1            544195ops      589ops/s  76.4mb/s      4.0ms/op [0.00ms - 5382.26ms]
-openfile2            544195ops      589ops/s   0.0mb/s      1.2ms/op [0.00ms - 160416.22ms]
-closefile2           544195ops      589ops/s   0.0mb/s      0.2ms/op [0.00ms - 96494.25ms]
-appendfilerand1      544199ops      589ops/s   4.6mb/s      6.7ms/op [0.00ms - 61639.27ms]
-openfile1            544201ops      589ops/s   0.0mb/s      2.1ms/op [0.00ms - 195190.65ms]
-closefile1           544201ops      589ops/s   0.0mb/s      0.0ms/op [0.00ms - 1172.57ms]
-wrtfile1             544219ops      589ops/s  73.8mb/s     45.2ms/op [0.00ms - 225163.26ms]
-createfile1          544245ops      589ops/s   0.0mb/s      3.6ms/op [0.01ms - 195173.11ms]
-1128.611: IO Summary: 5986233 ops 6483.469 ops/s 589/1179 rd/wr 154.8mb/s  21.7ms/op
-1128.611: Shutting down processes
+</run>
+Took: 986.118
+Took: 986.118
+</benchmark>
 
-real	15m7.058s
-user	0m47.528s
-sys	11m20.177s
+real	16m26.784s
+user	16m20.669s
+sys	0m5.620s
+
