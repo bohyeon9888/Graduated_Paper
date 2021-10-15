@@ -3,7 +3,7 @@
 XSB_PATH=/home/stu1/XSBench/openmp-threading
 BTR_PATH=/home/stu1//vmitosis-workloads/bin
 
-OUTPUT_ANON=BTR_usage_always.out
+OUTPUT_ANON=FB_usage_always.out
 
 TIME_SEQ=$(seq 0 1000)
 
@@ -20,5 +20,4 @@ do
 
         sleep 1
 done
-
 
