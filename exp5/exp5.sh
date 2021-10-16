@@ -3,7 +3,7 @@
 XSB_PATH=/home/stu1/XSBench/openmp-threading
 BTR_PATH=/home/stu1//vmitosis-workloads/bin
 
-OUTPUT_ANON=FB_usage_defer.out
+OUTPUT_ANON=BTRusage_THPD.out
 
 TIME_SEQ=$(seq 0 1800)
 
