@@ -1,0 +1,24 @@
+
+------------------THP defrag [always]------------------
+
+</run>
+Took: 957.18446744073709551524
+Took: 957.18446744073709551524
+</benchmark>
+
+real	15m57.208s
+user	15m54.463s
+sys	0m2.708s
+
+
+------------------THP defrag [defer]------------------
+
+</run>
+Took: 952.233
+Took: 952.233
+</benchmark>
+
+real	15m52.526s
+user	15m49.964s
+sys	0m2.516s
+
